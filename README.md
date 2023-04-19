@@ -2,6 +2,9 @@
 
 pfSenseSquidGuardLists is a community-driven repository of URL blacklists and whitelists 🌐 for use with SquidGuard in pfSense.
 
+<img width="667" alt="image" src="https://user-images.githubusercontent.com/40925832/232986296-8d242e21-1f18-4b39-9d1f-204746aec655.png">
+
+
 ## ❓ What is pfSenseSquidGuardLists?
 
 This project aims to provide an up-to-date and easy-to-use set of URL blacklists 🚫 and whitelists ✅ to help network administrators using pfSense and SquidGuard filter inappropriate or unsafe content on their networks. The lists are organized into categories 📁 and are maintained by the community, allowing users to collaborate and continually improve the lists.
