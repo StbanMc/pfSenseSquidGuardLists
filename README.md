@@ -1,5 +1,38 @@
 # 🛡️ pfSenseSquidGuardLists
 
+pfSenseSquidGuardLists is a community-driven repository of URL blacklists and whitelists 🌐 for use with SquidGuard in pfSense.
+
+## ❓ What is pfSenseSquidGuardLists?
+
+This project aims to provide an up-to-date and easy-to-use set of URL blacklists 🚫 and whitelists ✅ to help network administrators using pfSense and SquidGuard filter inappropriate or unsafe content on their networks. The lists are organized into categories 📁 and are maintained by the community, allowing users to collaborate and continually improve the lists.
+
+## 🧩 How does it work?
+
+pfSenseSquidGuardLists contains URL blacklists 🚫 and whitelists ✅ organized by categories. Each category has separate domain and URL files to facilitate their configuration in SquidGuard within pfSense.
+
+Users can contribute to the project by adding ➕, removing ➖, or modifying ✏️ entries in the blacklists and whitelists. Periodic updates 🔄 are essential to ensure the lists are effective and accurate.
+
+## 🎯 What is it for?
+
+pfSenseSquidGuardLists serves as a resource for network administrators looking to implement content filtering policies in their networks using SquidGuard in pfSense. The blacklists and whitelists in this repository can be used to block 🚫 or allow ✅ access to specific websites or categories of websites.
+
+## ⚙️ Configuration
+
+To use the lists from pfSenseSquidGuardLists with SquidGuard in pfSense, follow these steps:
+
+1. Clone the repository 📦 or download and extract the project files to your pfSense server.
+2. Configure SquidGuard to use the lists from pfSenseSquidGuardLists. Edit the SquidGuard configuration file (usually accessible through the pfSense web interface) and update the blacklists and whitelists paths with the paths of the downloaded files.
+3. Check and apply the SquidGuard configuration ✅ and restart the Squid service in pfSense through the web interface or using appropriate commands in the command line.
+4. Ensure you keep the lists updated 🔄 using the `update_lists.sh` script included in the `scripts` folder or through your own methods.
+
+## 🤝 Contributing
+
+We appreciate community collaboration in maintaining and improving the lists in pfSenseSquidGuardLists. If you wish to contribute, please follow the contribution guidelines and make your changes in a separate branch before submitting a pull request.
+
+---------------------------------------------------------------------------------------
+
+# 🛡️ pfSenseSquidGuardLists (Español)
+
 pfSenseSquidGuardLists es un repositorio comunitario de listas negras y blancas de URLs 🌐 para su uso con SquidGuard en pfSense.
 
 ## ❓ ¿Qué es pfSenseSquidGuardLists?
